@@ -8,9 +8,9 @@ docker container run \
     --rm \
     --name adass \
     -p 9999:8888 \
-    adass21-montage
+    ryantanaka/adass21-montage
 
-docker exec -it -u scitech adass /bin/bash
+ docker exec -it -u scitech adass /bin/bash
 
-docker kill adass
+ docker kill adass
 

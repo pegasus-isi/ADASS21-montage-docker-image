@@ -36,4 +36,5 @@ RUN chown --recursive scitech ./PegasusMontage
 USER scitech
 RUN pip3 install --user -r ./PegasusMontage/requirements.txt
 
-
+# the supervisord CMD from the parent docker image needs to run as root
+USER root

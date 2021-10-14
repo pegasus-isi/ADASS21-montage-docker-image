@@ -2,4 +2,4 @@
 set -e 
 set -x
 
-docker image build -t adass21-montage .
+docker image build -t ryantanaka/adass21-montage .
